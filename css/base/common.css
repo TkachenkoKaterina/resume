@@ -1,0 +1,40 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f5f7fa;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 24px;
+}
+
+.sidebar_title {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 24px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  margin: 0 auto;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.main_content {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  background-color: #ffffff;
+  padding: 105px 90px;
+}

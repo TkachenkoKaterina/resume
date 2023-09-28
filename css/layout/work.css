@@ -1,0 +1,28 @@
+.work_position {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #000000;
+}
+
+.organization {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #fb6d3a;
+}
+
+.work_list {
+  padding-left: 15px;
+}
+
+.work_list_item {
+  line-height: 1.71;
+  color: #595959;
+}
+
+.companies {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

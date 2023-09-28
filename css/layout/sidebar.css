@@ -1,0 +1,93 @@
+/* Sidebar */
+
+.sidebar {
+  background-color: #1e2939;
+  padding: 102px 45px;
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.photo {
+  width: 280px;
+  height: 362px;
+}
+
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contacts-item::marker {
+  content: none;
+}
+
+.contacts-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+  line-height: 1.71; /* 171.429% */
+}
+
+.contacts-icon {
+  fill: #fff;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts-link:hover .contacts-icon {
+  fill: #fb6d3a;
+}
+
+.tech_skill_list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-left: 20px;
+}
+
+.tech_skill_item {
+  color: #fb6d3a;
+}
+
+.tech_skill_text {
+  line-height: 1.71;
+  color: #ffffff;
+}
+
+.soft_skill_list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-left: 20px;
+}
+
+.soft_skill_item {
+  color: #fb6d3a;
+}
+
+.soft_skill_text {
+  line-height: 1.71;
+  color: #ffffff;
+}
+
+.contact_type {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-right: 5px;
+}
+
+.contact_link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #565e6a;
+}
+
+/* Main content */
